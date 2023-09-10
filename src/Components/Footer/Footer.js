@@ -1,38 +1,47 @@
 import React from 'react';
+import logo from '../../../src/assests/logo.png'
+import { Link } from 'react-router-dom';
+import { FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { BsYoutube } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <div>
-        <footer className="px-4 py-8 dark:bg-gray-800 dark:text-gray-400">
-	<div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
-		<div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
-			<div className="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full dark:bg-violet-400">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-5 h-5 rounded-full dark:text-gray-900">
-					<path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
-				</svg>
-			</div>
-			<ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
-				<li>
-					<a rel="noopener noreferrer" href="#">Terms of Use</a>
-				</li>
-				<li>
-					<a rel="noopener noreferrer" href="#">Privacy</a>
-				</li>
-			</ul>
-		</div>
-		<ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-			<li>
-				<a rel="noopener noreferrer" href="#">Instagram</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Facebook</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Twitter</a>
-			</li>
-		</ul>
-	</div>
-</footer>
+        <div className='bg-[#111111]'>
+            <div className=' pt-8 pb-3'>
+                <Link to='/'>
+                    <div className='flex justify-center items-center'>
+                        <img src={logo} alt='logo' className='w-24 h-20' />
+                    </div>
+                </Link>
+            </div>
+            <div className='text-white flex items-center gap-4  text-2xl bg-[#111111] justify-center'>
+                <FaFacebookF className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-[#3B5997]' />
+                <FaTwitter className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-[#00ACED]' />
+                <AiOutlineInstagram className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' />
+                <BsYoutube className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-red-600' />
+
+            </div>
+            <div>
+                <ul className='flex text-gray-500 gap-3 justify-center items-center my-5 tracking-tight font-semibold'>
+                    <Link to='/'>
+                    PRIVACY POLICY 
+                    </Link>
+                    <Link to='/'>
+                    TERMS OF USE 
+                    </Link>
+                    <Link to='/'>
+                    CONTACT US
+                    </Link>
+                    <Link to='/'>
+                    ADVERTISE WITH US
+                    </Link>
+                </ul>
+            </div>
+            <div className='bg-[#000000] py-8'>
+                <small className='flex justify-center items-center font-semibold text-gray-300'>Copyright © 2023 Tracey Khan</small>
+            </div>
+
         </div>
     );
 };

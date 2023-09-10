@@ -24,7 +24,7 @@ const SideDrawer = () => {
           <TbListTree />
         </label>
       </div>
-      <div className="drawer-side  ">
+      <div className="drawer-side  z-50">
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <ul className="menu p-4 w-80 min-h-full bg-black text-gray-100 relative">
           <li><a>Sidebar Item 1</a></li>
