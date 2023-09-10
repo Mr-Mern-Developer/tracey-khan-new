@@ -11,7 +11,7 @@ const Footer = () => {
             <div className=' pt-8 pb-3'>
                 <Link to='/'>
                     <div className='flex justify-center items-center'>
-                        <img src={logo} alt='logo' className='w-24 h-20' />
+                        <img src={logo} alt='logo' className='w-28 h-24' />
                     </div>
                 </Link>
             </div>
@@ -23,23 +23,23 @@ const Footer = () => {
 
             </div>
             <div>
-                <ul className='flex text-gray-500 gap-3 justify-center items-center my-5 tracking-tight font-semibold'>
-                    <Link to='/'>
+                <ul className='flex text-gray-300 gap-3 justify-center items-center my-5 tracking-tight font-medium'>
+                    <Link to='/' className='hover:text-white'>
                     PRIVACY POLICY 
                     </Link>
-                    <Link to='/'>
+                    <Link to='/' className='hover:text-white'>
                     TERMS OF USE 
                     </Link>
-                    <Link to='/'>
+                    <Link to='/' className='hover:text-white'>
                     CONTACT US
                     </Link>
-                    <Link to='/'>
+                    <Link to='/' className='hover:text-white'>
                     ADVERTISE WITH US
                     </Link>
                 </ul>
             </div>
             <div className='bg-[#000000] py-8'>
-                <small className='flex justify-center items-center font-semibold text-gray-300'>Copyright © 2023 Tracey Khan</small>
+                <small className='flex justify-center items-center font-medium text-gray-300 tracking-wide'>Copyright © 2023 Tracey Khan</small>
             </div>
 
         </div>
