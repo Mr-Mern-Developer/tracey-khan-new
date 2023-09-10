@@ -19,7 +19,7 @@ const Cards = () => {
                         height: '350px', // Set the height of the div
                     }}
                 >
-                    <div className='w-[90%] mx-auto mt-[200px]'>
+                    <div className='w-[90%] mx-auto mt-[210px]'>
                     <div className='flex items-center gap-2 '>
                         <p className='font-semibold text-red-600'>
                             Music
@@ -47,7 +47,7 @@ const Cards = () => {
                         height: '350px', // Set the height of the div
                     }}
                 >
-                    <div className='w-[90%] mx-auto mt-[200px]'>
+                    <div className='w-[90%] mx-auto mt-[210px]'>
                     <div className='flex items-center gap-2 '>
                         <p className='font-semibold text-red-600'>
                             Music
