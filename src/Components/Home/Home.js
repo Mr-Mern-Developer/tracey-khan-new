@@ -7,7 +7,7 @@ import Banner from './Banner';
 const Home = () => {
     return (
         <div className='w-[90%] mx-auto min-h-screen'>
-            <Banner />
+            {/* <Banner /> */}
             <div className='mt-8'>
                 <hr className='border-t-[1px] border-black'>
                 </hr>
