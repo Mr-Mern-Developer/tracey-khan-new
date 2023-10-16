@@ -21,12 +21,12 @@ const NavBar = () => {
                     <div className='  flex w-[43%]   '>
                         <div className='text-white flex items-center gap-3  text-2xl'>
                             <a href="https://www.facebook.com/1on1withtraceykhan?mibextid=LQQJ4d" target='_blank'>
-                            <FaFacebookF className='w-9 h-9  rounded-full p-2 bg-[#3B5997]' />
+                                <FaFacebookF className='w-9 h-9  rounded-full p-2 bg-[#3B5997]' />
                             </a>
                             <a href="https://twitter.com/" target='_blank'><FaTwitter className='w-9 h-9 rounded-full p-2 bg-[#00ACED]' /></a>
                             <a href="https://www.instagram.com/1on1withtraceykhan/?igshid=MzRlODBiNWFlZA%3D%3D" target='_blank'> <AiOutlineInstagram className='w-9 h-9 rounded-full p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' /></a>
                             <a href="https://www.youtube.com/@traceykhan5344?feature=shared" target='_blank'><BsYoutube className='w-9 h-9  rounded-full p-2 bg-red-600' /></a>
-                            
+
 
                         </div>
 
@@ -53,29 +53,38 @@ const NavBar = () => {
                 <div>
                     <ul className='flex gap-4 uppercase font-bold '>
                         <Link to='/' className='hover:text-red-600'>
-                        Entertainment News
+                            Entertainment News
 
                         </Link>
                         <Link to='/' className='hover:text-red-600'>
-                        One Blog 
+                            One Blog
+
+                        </Link>
+                       
+                        <div class="relative group z-10">
+      <button class="bg-transparent hover:text-red-600 uppercase">Fashion</button>
+      <ul class="absolute hidden  bg-white shadow-md w-44 py-2  group-hover:block -left-8">
+        <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Clothing</Link></li>
+        <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Shoes</Link></li>
+        <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Handbags</Link></li>
+        <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Accessories</Link></li>
+        <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Fragrances</Link></li>
+      
+      </ul>
+    </div>
+                        <Link to='/' className='hover:text-red-600'>
+                            Watches
 
                         </Link>
                         <Link to='/' className='hover:text-red-600'>
-                        Fashion
-                        </Link>
-                        <Link to='/' className='hover:text-red-600'>
-                        Watches 
 
-                        </Link>
-                        <Link to='/' className='hover:text-red-600'>
-                      
-                        Videos
+                            Videos
 
 
                         </Link>
                         <Link to='/' className='hover:text-red-600'>
-                      
-                        Media/PR Services
+
+                            Media/PR Services
 
 
                         </Link>
@@ -87,7 +96,7 @@ const NavBar = () => {
                 <div>
                     <BiSearch className='text-black text-2xl' />
                 </div>
-                </div>
+            </div>
 
             {/* navbar end  */}
 
