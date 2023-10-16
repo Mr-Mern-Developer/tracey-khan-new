@@ -63,7 +63,7 @@ const NavBar = () => {
                        
                         <div class="relative group z-10">
       <button class="bg-transparent hover:text-red-600 uppercase">Fashion</button>
-      <ul class="absolute hidden  bg-white shadow-md w-44 py-2  group-hover:block -left-8">
+      <ul class="absolute hidden  bg-white shadow-2xl w-44 py-2 border-[1px] border-gray-300 group-hover:block -left-8">
         <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Clothing</Link></li>
         <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Shoes</Link></li>
         <li><Link to='/' class="block px-4 py-2 text-gray-800 hover:bg-blue-100 text-center">Handbags</Link></li>
