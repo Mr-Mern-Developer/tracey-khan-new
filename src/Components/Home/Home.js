@@ -2,12 +2,18 @@ import React from 'react';
 import Cards from './Cards';
 import LeftCard from './LeftCard';
 import Banner from './Banner';
+import './Home.css'
 
 
 const Home = () => {
     return (
         <div className='w-[90%] mx-auto min-h-screen'>
             {/* <Banner /> */}
+            <div
+                className=" relative  bg-cover bg-center text-center home-banner"
+
+            >
+            </div>
             <div className='mt-8'>
                 <hr className='border-t-[1px] border-black'>
                 </hr>

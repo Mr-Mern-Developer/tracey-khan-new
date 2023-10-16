@@ -7,33 +7,35 @@ import { BsYoutube } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <div className='bg-[#111111]'>
+        <div className='bg-gray-100'>
             <div className=' pt-8 pb-3'>
                 <Link to='/'>
                     <div className='flex justify-center items-center'>
-                        <img src={logo} alt='logo' className='w-28 h-24' />
+                        <img src={logo} alt='logo' className='w-56 h-28 ' />
                     </div>
                 </Link>
             </div>
-            <div className='text-white flex items-center gap-4  text-2xl bg-[#111111] justify-center'>
-                <FaFacebookF className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-[#3B5997]' />
-                <FaTwitter className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-[#00ACED]' />
-                <AiOutlineInstagram className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' />
-                <BsYoutube className='w-9 h-9 bg-[rgba(255,255,255,.15)] rounded-full p-2 hover:bg-red-600' />
+            <div className='text-white flex items-center justify-center gap-4  text-2xl '>
+                 <a href="https://www.facebook.com/1on1withtraceykhan?mibextid=LQQJ4d" target='_blank'>
+                            <FaFacebookF className='w-9 h-9  rounded-full p-2 bg-[#3B5997]' />
+                            </a>
+                            <a href="https://twitter.com/" target='_blank'><FaTwitter className='w-9 h-9 rounded-full p-2 bg-[#00ACED]' /></a>
+                            <a href="https://www.instagram.com/1on1withtraceykhan/?igshid=MzRlODBiNWFlZA%3D%3D" target='_blank'> <AiOutlineInstagram className='w-9 h-9 rounded-full p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' /></a>
+                            <a href="https://www.youtube.com/@traceykhan5344?feature=shared" target='_blank'><BsYoutube className='w-9 h-9  rounded-full p-2 bg-red-600' /></a>
 
             </div>
             <div>
-                <ul className='flex text-gray-300 gap-3 justify-center items-center my-5 tracking-tight font-medium'>
-                    <Link to='/' className='hover:text-white'>
+                <ul className='flex text-gray-700 gap-3 justify-center items-center my-5 tracking-tight font-medium'>
+                    <Link to='/' className=''>
                     PRIVACY POLICY 
                     </Link>
-                    <Link to='/' className='hover:text-white'>
+                    <Link to='/' className=''>
                     TERMS OF USE 
                     </Link>
-                    <Link to='/' className='hover:text-white'>
+                    <Link to='/' className=''>
                     CONTACT US
                     </Link>
-                    <Link to='/' className='hover:text-white'>
+                    <Link to='/' className=''>
                     ADVERTISE WITH US
                     </Link>
                 </ul>

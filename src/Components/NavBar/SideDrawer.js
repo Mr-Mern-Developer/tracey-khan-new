@@ -29,19 +29,33 @@ const SideDrawer = () => {
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <ul className="menu p-4 w-80 min-h-full bg-black text-gray-100 relative text-lg">
           <Link to='/' className='pt-12'>
-            Music
+          Entertainment 
+
           </Link>
           <hr className='mt-2 border-t-[.5px] border-gray-300'/>
           <Link to='/' className='mt-2'>
-            News
+          News 
+
           </Link>
           <hr className='mt-2 border-t-[.5px] border-gray-300'/>
           <Link to='/' className='mt-2'>
-            Videos
+          Fashion
           </Link>
           <hr className='mt-2 border-t-[.5px] border-gray-300'/>
           <Link to='/' className='mt-2'>
-          Reviews
+          Watches 
+
+          </Link>
+          <hr className='mt-2 border-t-[.5px] border-gray-300'/>
+          <Link to='/' className='mt-2'>
+          Videos
+
+
+          </Link>
+          <hr className='mt-2 border-t-[.5px] border-gray-300'/>
+          <Link to='/' className='mt-2'>
+          Media/PR Services
+
           </Link>
           <hr className='mt-2 border-t-[.5px] border-gray-300'/>
        
